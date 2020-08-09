@@ -5,6 +5,16 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "phpunit.phpunit", "phpunit\phpunit\phpunit.phpunit.msbuildproj", "{63656BF9-FAA8-4ED9-B6C9-4317BC1D5B2C}"
 EndProject
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "sebastian.diff", "sebastian\diff\sebastian.diff.msbuildproj", "{0B4DEFBA-A3E9-4E19-9753-6A628215FAB8}"
+EndProject
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "twig.twig", "twig\Twig.Twig\twig.twig.msbuildproj", "{73F46375-0913-4E09-B85C-F95EE2BBFB02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twig.AspNetCore", "twig\Twig.AspNetCore\Twig.AspNetCore.csproj", "{6A41B873-4631-4A75-A6F7-1BFC787AADED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Twig", "Twig", "{26D06143-A8EA-461B-B004-D5E223FEA778}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twig.AspNetCore.Demo", "twig\Twig.AspNetCore.Demo\Twig.AspNetCore.Demo.csproj", "{84759A43-85FD-4A95-A43F-6CAC3892D305}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +25,30 @@ Global
 		{63656BF9-FAA8-4ED9-B6C9-4317BC1D5B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63656BF9-FAA8-4ED9-B6C9-4317BC1D5B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63656BF9-FAA8-4ED9-B6C9-4317BC1D5B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B4DEFBA-A3E9-4E19-9753-6A628215FAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B4DEFBA-A3E9-4E19-9753-6A628215FAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B4DEFBA-A3E9-4E19-9753-6A628215FAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B4DEFBA-A3E9-4E19-9753-6A628215FAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F46375-0913-4E09-B85C-F95EE2BBFB02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F46375-0913-4E09-B85C-F95EE2BBFB02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F46375-0913-4E09-B85C-F95EE2BBFB02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F46375-0913-4E09-B85C-F95EE2BBFB02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A41B873-4631-4A75-A6F7-1BFC787AADED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A41B873-4631-4A75-A6F7-1BFC787AADED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A41B873-4631-4A75-A6F7-1BFC787AADED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A41B873-4631-4A75-A6F7-1BFC787AADED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84759A43-85FD-4A95-A43F-6CAC3892D305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84759A43-85FD-4A95-A43F-6CAC3892D305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84759A43-85FD-4A95-A43F-6CAC3892D305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84759A43-85FD-4A95-A43F-6CAC3892D305}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73F46375-0913-4E09-B85C-F95EE2BBFB02} = {26D06143-A8EA-461B-B004-D5E223FEA778}
+		{6A41B873-4631-4A75-A6F7-1BFC787AADED} = {26D06143-A8EA-461B-B004-D5E223FEA778}
+		{84759A43-85FD-4A95-A43F-6CAC3892D305} = {26D06143-A8EA-461B-B004-D5E223FEA778}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5018C1D3-4B17-4A1C-9B97-1B16EDE75AE8}

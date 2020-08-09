@@ -1,0 +1,23 @@
+<Project>
+
+  <!-- $(PeachpieVersion) property from the current Peachpie.NET.Sdk -->
+  <Import Project="../Directory.Build.props" />
+
+  <PropertyGroup>
+
+    <VersionPrefix Condition=" '$(VersionPrefix)'=='' ">3.0.3</VersionPrefix>
+
+    <!-- metadata generation -->
+    <GenerateAssemblyVersionAttribute>true</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyFileVersionAttribute>true</GenerateAssemblyFileVersionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateNeutralResourcesLanguageAttribute>true</GenerateNeutralResourcesLanguageAttribute>
+
+    <IconFileName>twig-logo.png</IconFileName>
+
+  </PropertyGroup>
+
+</Project>

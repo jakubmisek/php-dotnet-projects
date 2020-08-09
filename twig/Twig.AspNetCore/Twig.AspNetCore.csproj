@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1</TargetFrameworks>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+    <PackageTags>peachpie,twig,web,mvc,razor</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Provides Twig templates parsing and rendering for .NET.</Description>
+    <PackageIcon>assets/$(IconFileName)</PackageIcon>
+    <Title>Twig for ASP.NET Core</Title>
+    <Authors>Fabien Potencier;Twig Team</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Twig.Twig\twig.twig.msbuildproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Html.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.2.0" />
+    <PackageReference Include="Peachpie.AspNetCore.Mvc" Version="$(PeachpieVersion)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../$(IconFileName)" Pack="true" PackagePath="assets/$(IconFileName)" />
+    <None Include="readme.md" Pack="true" PackagePath="assets/readme.md" />
+  </ItemGroup>
+
+</Project>
