@@ -1,0 +1,22 @@
+<Project>
+
+  <!-- $(PeachpieVersion) property from the current Peachpie.NET.Sdk -->
+  <Import Project="Version.props" Sdk="Peachpie.NET.Sdk" Condition=" '$(PeachpieVersion)'=='' " />
+
+  <PropertyGroup>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!-- signing -->
+    <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)key.snk</AssemblyOriginatorKeyFile>
+    <SignAssembly>true</SignAssembly>
+
+    <!-- package -->
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/jakubmisek/php-dotnet-projects</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/jakubmisek/php-dotnet-projects</PackageProjectUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageOutputPath>$(MSBuildThisFileDirectory)artifacts</PackageOutputPath>
+  </PropertyGroup>
+
+</Project>
