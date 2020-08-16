@@ -10,6 +10,12 @@ This repository contains .NET projects compatible with .NET Standard being compi
 dotnet build
 ```
 
+**Release build:**
+
+```shell
+dotnet build -c Release -p:VersionSuffix=preview
+```
+
 ## Other projects:
 
 - WordPress https://github.com/iolevel/wpdotnet-sdk
