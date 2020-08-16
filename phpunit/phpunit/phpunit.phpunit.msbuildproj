@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <None Include="LICENSE.txt" Pack="true" PackagePath=""/>
+    <None Include="phpunit.phpunit.manifest" Pack="true" PackagePath="phpunit.phpunit.manifest" />
   </ItemGroup>
 
   <Target Name="DownloadPhpUnit" BeforeTargets="CoreCompile">
