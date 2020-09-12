@@ -6,7 +6,7 @@ The sources of original library are maintained at https://github.com/twigphp/Twi
 
 **Render Twig template in a razor page**
 
-<center>Index.cshtml</center>
+*Index.cshtml:*
 
 ```razor
 @{
@@ -16,7 +16,7 @@ The sources of original library are maintained at https://github.com/twigphp/Twi
 @Html.Twig("/path/to/templates", "index.html", new { name = "John Doe", });
 ```
 
-<center>path/to/templates/index.html</center>
+*path/to/templates/index.html:*
 
 ```html
 <p>

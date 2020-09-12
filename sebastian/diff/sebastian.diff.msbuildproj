@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <Compile Include="src/**/*.php;" Exclude="**/*TestCase.php" />
+    <None Include="readme.md" Pack="true" PackagePath="assets/readme.md" />
   </ItemGroup>
   
 </Project>
