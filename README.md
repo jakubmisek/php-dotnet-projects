@@ -16,6 +16,10 @@ dotnet build
 dotnet build -c Release -p:VersionSuffix=preview
 ```
 
+## Providing package readme
+
+Some packages are compiled right from the original repository. To alter or add a readme text, put `readme.md` in a corresponding folder: `{package name}/readme.md` (lowercased).
+
 ## Other projects:
 
 - WordPress https://github.com/iolevel/wpdotnet-sdk
