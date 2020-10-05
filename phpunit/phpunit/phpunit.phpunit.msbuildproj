@@ -6,6 +6,7 @@
     <PhpUnitVersion Condition=" '$(PhpUnitVersion)'=='' ">8.5.8</PhpUnitVersion>
     <VersionPrefix>$(PhpUnitVersion)</VersionPrefix>
     <NoWarn>PHP0125,PHP5011,PHP5012,PHP6002</NoWarn>
+    <LangVersion>7.4</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
