@@ -1,4 +1,4 @@
-Stand-alone diff implementation.
+**Stand-alone diff implementation.**
 
 ## Generating diff
 
