@@ -21,7 +21,7 @@ trivial to integrate with web services.
 var client = new GuzzleHttp.Client(new PhpArray());
 var res = client.request("GET", "https://api.github.com/user", new PhpArray()
 {
-    { "auth", new PhpArray() { "user", "pass" } },
+    { "auth", new PhpArray() { "your_username", "your_password" } },
 });
 
 Console.WriteLine((int)res.getStatusCode());    // "200"
@@ -37,7 +37,8 @@ var promise = client
     .sendAsync(request, new PhpArray())
     .then(new Action<GuzzleHttp.Psr7.Response>(response =>
     {
-        Console.WriteLine($"I completed! {response.getBody().ToString()}");
-    }));
-//promise.wait();
+        Console.WriteLine($"I completed! {response.getBody()}");
+    }))
+    .Cast<GuzzleHttp.Promise.PromiseInterface>();
+promise.wait();
 ```
