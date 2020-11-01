@@ -1,4 +1,4 @@
-# phpgeo - A Simple Geo Library for PHP
+# phpgeo - A Simple Geo Library
 
 phpgeo provides abstractions to geographical coordinates (including support for different ellipsoids) and allows you to calculate geographical distances between coordinates with high precision.
 
