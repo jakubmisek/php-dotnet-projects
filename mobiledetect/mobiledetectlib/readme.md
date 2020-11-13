@@ -44,7 +44,7 @@ The rest of the PRs about TVs, bots or optimizations will be closed and analyzed
 #### Contribute
 
 *Submit a PR*
-> Submit a pull request but before make sure you read [how to contribute](docs/CONTRIBUTING.md) guide.
+> Submit a pull request but before make sure you read [how to contribute](https://github.com/serbanghita/Mobile-Detect/blob/master/docs/CONTRIBUTING.md) guide.
 
 *Donate*
 
