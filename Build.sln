@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "phpunit.phpunit", "phpunit\phpunit\phpunit.phpunit.msbuildproj", "{63656BF9-FAA8-4ED9-B6C9-4317BC1D5B2C}"
-EndProject
 Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "twig.twig", "twig\Twig.Twig\twig.twig.msbuildproj", "{73F46375-0913-4E09-B85C-F95EE2BBFB02}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twig.AspNetCore", "twig\Twig.AspNetCore\Twig.AspNetCore.csproj", "{6A41B873-4631-4A75-A6F7-1BFC787AADED}"
@@ -19,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{63656BF9-FAA8-4ED9-B6C9-4317BC1D5B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63656BF9-FAA8-4ED9-B6C9-4317BC1D5B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63656BF9-FAA8-4ED9-B6C9-4317BC1D5B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63656BF9-FAA8-4ED9-B6C9-4317BC1D5B2C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{73F46375-0913-4E09-B85C-F95EE2BBFB02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{73F46375-0913-4E09-B85C-F95EE2BBFB02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73F46375-0913-4E09-B85C-F95EE2BBFB02}.Release|Any CPU.ActiveCfg = Release|Any CPU
